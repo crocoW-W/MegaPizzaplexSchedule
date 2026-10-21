@@ -1,4 +1,10 @@
-:root {
+@import "tailwindcss";
+
+@theme {
+  --color-darkblue: #040412;
+}
+
+/* :root {
   --bg: #000;
   --fg: #fff;
 }
@@ -20,10 +26,10 @@ body {
 img {
   display: block;
   max-width: 100%;
-}
+} */
 
 /* ===== HEADER ===== */
-header > div {
+/* header > div {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -46,15 +52,15 @@ header > div {
   margin: 0;
   font-size: 0.75rem;
   line-height: 1.3;
-}
+} */
 
 /* ===== MAIN ===== */
-main {
+/* main {
   padding: 16px;
-}
+} */
 
 /* ===== CALENDÁRIO ===== */
-.calendario {
+/* .calendario {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -65,10 +71,10 @@ main {
   overflow-y: auto;
   scroll-behavior: smooth;
   overscroll-behavior: contain;
-}
+} */
 
 /* Linha vertical */
-.calendario::before {
+/* .calendario::before {
   content: "";
   position: absolute;
   top: 0;
@@ -139,10 +145,10 @@ main {
   font-size: 0.72rem;
   line-height: 1.3;
   margin-top: 2px;
-}
+} */
 
 /* ===== LOJA ===== */
-.loja {
+/* .loja {
   margin-top: 4px;
   padding-top: 16px;
 }
@@ -218,10 +224,10 @@ main {
 .produtos article button:hover {
   background: var(--fg);
   color: var(--bg);
-}
+} */
 
 /* ===== FOOTER ===== */
-footer {
+/* footer {
   padding: 16px;
   border-top: 4px solid var(--fg);
 }
@@ -249,19 +255,4 @@ footer p {
 footer p:first-of-type {
   font-weight: 700;
   font-size: 1rem;
-}
-
-/* ===== TELAS MAIORES ===== */
-/* @media (min-width: 768px) {
-  body {
-    max-width: 960px;
-  }
-
-  .titulo h1 {
-    font-size: 2rem;
-  }
-
-  .produtos {
-    grid-template-columns: repeat(4, 1fr);
-  }
 } */
