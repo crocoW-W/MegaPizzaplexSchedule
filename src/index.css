@@ -1,0 +1,258 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkblue: #040412;
+}
+
+/* :root {
+  --bg: #000;
+  --fg: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  max-width: 480px;
+  margin-inline: auto;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+} */
+
+/* ===== HEADER ===== */
+/* header > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+}
+
+.logo img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.titulo h1 {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.titulo p {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.3;
+} */
+
+/* ===== MAIN ===== */
+/* main {
+  padding: 16px;
+} */
+
+/* ===== CALENDÁRIO ===== */
+/* .calendario {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 12px 0px 8px;
+  border: 2px solid var(--fg);
+  max-height: 400px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+} */
+
+/* Linha vertical */
+/* .calendario::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 36px;
+  width: 1px;
+  background: var(--fg);
+  pointer-events: none;
+}
+
+.calendario article {
+  position: relative;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.calendario .dia {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--fg);
+  border: 2px solid var(--fg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.calendario .dia h3 {
+  margin: 0;
+  color: var(--bg);
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.calendario .informacoes {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  align-items: start;
+  border: 2px solid var(--fg);
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 70px;
+}
+
+.calendario .informacoes img {
+  grid-row: span 3;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.calendario .informacoes h3 {
+  grid-column: 2;
+  margin: 8px 6px 0px;
+  font-size: 0.95rem;
+  padding-bottom: 4px;
+}
+
+.calendario .informacoes p {
+  grid-column: 2;
+  margin: 2px 8px;
+  font-size: 0.72rem;
+  line-height: 1.3;
+  margin-top: 2px;
+} */
+
+/* ===== LOJA ===== */
+/* .loja {
+  margin-top: 4px;
+  padding-top: 16px;
+}
+
+.loja-titulo h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.produtos {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 8px;
+  border: 2px solid var(--fg);
+}
+
+.produtos article {
+  flex: 0 0 180px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--fg);
+  padding: 6px;
+  margin: 4px;
+  min-width: 120px;
+}
+
+.produtos article img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 1px solid var(--fg);
+}
+
+.produtos article h3 {
+  margin: 6px 0 2px;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.produtos article p {
+  margin: 2px 0;
+  font-size: 0.6rem;
+  line-height: 1.3;
+  font-weight: 100;
+}
+
+.produtos article p:last-of-type {
+  margin: 2px 0;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.produtos article button {
+  margin-top: auto;
+  width: 100%;
+  padding: 6px 0;
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--fg);
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.produtos article button:hover {
+  background: var(--fg);
+  color: var(--bg);
+} */
+
+/* ===== FOOTER ===== */
+/* footer {
+  padding: 16px;
+  border-top: 4px solid var(--fg);
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+footer > div > img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+footer p {
+  margin: 4px 0;
+  font-size: 0.65rem;
+  line-height: 1.3;
+  font-weight: 100;
+}
+
+footer p:first-of-type {
+  font-weight: 700;
+  font-size: 1rem;
+} */
