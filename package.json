@@ -1,6 +1,7 @@
 {
   "name": "MegaPizzaplexSchedule",
-  "private": true,
+  "private": false,
+  "homepage": "https://crocow-w.github.io/MegaPizzaplexSchedule/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
