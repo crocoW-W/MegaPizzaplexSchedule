@@ -4,7 +4,7 @@ export function Footer() {
             <div className="flex items-center justify-between gap-3">
                 <img
                     className="w-24 h-24 object-contain shrink-0"
-                    src="src/assets/FazbearEntertainment-ARLogo.webp"
+                    src="public/FazbearEntertainment-ARLogo.webp"
                     alt="Logo da Fazbear Entertainment"
                 />
                 <div className="flex-1 min-w-0 text-right">

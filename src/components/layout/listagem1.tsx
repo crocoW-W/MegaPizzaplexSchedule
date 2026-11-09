@@ -15,7 +15,7 @@ export function Listagem1() {
                         <h3 className="m-0 text-black text-base font-black">14/11</h3>
                     </div>
                     <div className="bg-darkblue min-w-0 grid grid-cols-[minmax(0,6rem)_minmax(0,1fr)] grid-rows-[auto_1fr] items-stretch min-h-[70px] border-2 border-white rounded-lg box-border overflow-hidden md:flex md:flex-col md:h-[260px] md:w-full lg:h-[320px]">
-                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="src/assets/TeaserImage.webp" alt="" />
+                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="public/TeaserImage.webp" alt="" />
                         <h3 className="col-start-2 min-w-0 break-words m-0 mt-2 mx-1.5 pb-1 text-[0.95rem] md:mt-3 md:mx-4 md:text-lg lg:text-xl">Show Clássico</h3>
                         <p className="col-start-2 min-w-0 break-words my-0.5 mx-2 text-[0.72rem] leading-[1.3] md:mx-4 md:mt-1 md:text-sm lg:text-base">19:00 às 21:00 no palco principal</p>
                     </div>
@@ -26,7 +26,7 @@ export function Listagem1() {
                         <h3 className="m-0 text-black text-base font-black">20/11</h3>
                     </div>
                     <div className="bg-darkblue min-w-0 grid grid-cols-[minmax(0,6rem)_minmax(0,1fr)] grid-rows-[auto_1fr] items-stretch min-h-[70px] border-2 border-white rounded-lg box-border overflow-hidden md:flex md:flex-col md:h-[260px] md:w-full lg:h-[320px]">
-                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="src/assets/TeaserImage.webp" alt="" />
+                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="public/TeaserImage.webp" alt="" />
                         <h3 className="col-start-2 min-w-0 break-words m-0 mt-2 mx-1.5 pb-1 text-[0.95rem] md:mt-3 md:mx-4 md:text-lg lg:text-xl">Show de Fim de Semana</h3>
                         <p className="col-start-2 min-w-0 break-words my-0.5 mx-2 text-[0.72rem] leading-[1.3] md:mx-4 md:mt-1 md:text-sm lg:text-base">20:00 às 23:00 no palco principal</p>
                     </div>
@@ -37,7 +37,7 @@ export function Listagem1() {
                         <h3 className="m-0 text-black text-base font-black">15/11</h3>
                     </div>
                     <div className="bg-darkblue min-w-0 grid grid-cols-[minmax(0,6rem)_minmax(0,1fr)] grid-rows-[auto_1fr] items-stretch min-h-[70px] border-2 border-white rounded-lg box-border overflow-hidden md:flex md:flex-col md:h-[260px] md:w-full lg:h-[320px]">
-                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="src/assets/TeaserImage.webp" alt="" />
+                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="public/TeaserImage.webp" alt="" />
                         <h3 className="col-start-2 min-w-0 break-words m-0 mt-2 mx-1.5 pb-1 text-[0.95rem] md:mt-3 md:mx-4 md:text-lg lg:text-xl">Show Infantil</h3>
                         <p className="col-start-2 min-w-0 break-words my-0.5 mx-2 text-[0.72rem] leading-[1.3] md:mx-4 md:mt-1 md:text-sm lg:text-base">18:00 às 19:30 no palco exterior da creche</p>
                     </div>
@@ -48,7 +48,7 @@ export function Listagem1() {
                         <h3 className="m-0 text-black text-base font-black">19/11</h3>
                     </div>
                     <div className="bg-darkblue min-w-0 grid grid-cols-[minmax(0,6rem)_minmax(0,1fr)] grid-rows-[auto_1fr] items-stretch min-h-[70px] border-2 border-white rounded-lg box-border overflow-hidden md:flex md:flex-col md:h-[260px] md:w-full lg:h-[320px]">
-                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="src/assets/TeaserImage.webp" alt="" />
+                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="public/TeaserImage.webp" alt="" />
                         <h3 className="col-start-2 min-w-0 break-words m-0 mt-2 mx-1.5 pb-1 text-[0.95rem] md:mt-3 md:mx-4 md:text-lg lg:text-xl">Show da Roxy</h3>
                         <p className="col-start-2 min-w-0 break-words my-0.5 mx-2 text-[0.72rem] leading-[1.3] md:mx-4 md:mt-1 md:text-sm lg:text-base">20:00 às 22:00 no palco principal</p>
                     </div>
@@ -59,7 +59,7 @@ export function Listagem1() {
                         <h3 className="m-0 text-black text-base font-black">25/12</h3>
                     </div>
                     <div className="bg-darkblue min-w-0 grid grid-cols-[minmax(0,6rem)_minmax(0,1fr)] grid-rows-[auto_1fr] items-stretch min-h-[70px] border-2 border-white rounded-lg box-border overflow-hidden md:flex md:flex-col md:h-[260px] md:w-full lg:h-[320px]">
-                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="src/assets/TeaserImage.webp" alt="" />
+                        <img className="row-span-2 w-full h-full object-cover md:h-3/5 md:shrink-0" src="public/TeaserImage.webp" alt="" />
                         <h3 className="col-start-2 min-w-0 break-words m-0 mt-2 mx-1.5 pb-1 text-[0.95rem] md:mt-3 md:mx-4 md:text-lg lg:text-xl">Show de Natal</h3>
                         <p className="col-start-2 min-w-0 break-words my-0.5 mx-2 text-[0.72rem] leading-[1.3] md:mx-4 md:mt-1 md:text-sm lg:text-base">18:00 às 24:00 no palco principal</p>
                     </div>
