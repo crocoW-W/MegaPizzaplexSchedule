@@ -5,7 +5,7 @@ export function Header() {
                 <div>
                     <img
                         className="w-[150px] md:w-[200px] lg:w-[240px] object-contain"
-                        src={`${import.meta.env.BASE_URL}Mega_Pizzaplex_logo_no_bg_(credit_to_Under_Score).webp`}
+                        src={`${import.meta.env.BASE_URL}/assets/img/Mega_Pizzaplex_logo_no_bg_(credit_to_Under_Score).webp`}
                         alt="Logo do Mega Pizzaplex"
                     />
                 </div>
