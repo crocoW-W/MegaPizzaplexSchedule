@@ -1,7 +1,12 @@
-import { passes } from "../dtos/pass";
+import type { Pass } from "../dtos/pass";
+import { api } from "../../../lib/axios"
+
+const ENDPOINT = "";
 
 export const PassService = {
-    listAll() {
-        return passes;
+    async listAll(): Promise<Pass[]> {
+        const result = await api.get<Pass[]>(ENDPOINT);
+
+        return result.data;
     }
 }

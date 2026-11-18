@@ -2,6 +2,8 @@ import { ShowCard } from "../../cases/shows/components/show-card";
 import { useShow } from "../../cases/shows/hooks/use-show";
 
 export function Listagem1() {
+    const { shows, loading, error } = useShow();
+
     return (
         <div
             className="bg-black border-2 border-white max-h-[400px] overflow-y-auto scroll-smooth overscroll-contain
@@ -13,9 +15,15 @@ export function Listagem1() {
                md:flex-row md:items-end md:gap-6 md:p-4 md:min-w-max
                md:before:top-auto md:before:bottom-[44px] md:before:left-0 md:before:right-0 md:before:h-px md:before:w-auto"
             >
-                {useShow().map((show) => (
-                    <ShowCard key={show.id} show={show} />
+
+                {loading && <p className='loading'>Carregando produtos...</p>}
+
+                {error && <p className='error'>Erro ao carregar produtos: {error}</p>}
+
+                {shows.map((show) => (
+                    <ShowCard show={show} />
                 ))}
+
             </div>
         </div>
     )
