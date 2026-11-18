@@ -1,7 +1,7 @@
 import { api } from "../../../lib/axios";
 import type { Show } from "../dtos/show";
 
-const ENDPOINT = "";
+const ENDPOINT = "/shows?key=c92f3eb0";
 
 export const ShowService = {
     async listAll(): Promise<Show[]> {
