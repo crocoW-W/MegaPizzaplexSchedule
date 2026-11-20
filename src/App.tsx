@@ -9,13 +9,13 @@ function App() {
     <div style={{
       backgroundImage: `url('${import.meta.env.BASE_URL}assets/img/BackgroundBlurred.jpg')`,
     }}
-      className="bg-cover bg-center bg-no-repeat bg-fixed min-h-screen w-full max-w-[480px] md:max-w-none mx-auto bg-black text-white font-sans">
+      className="bg-cover bg-center bg-no-repeat bg-fixed min-h-screen w-full max-w-[480px] md:max-w-none mx-auto bg-black text-white font-sans flex flex-col">
       
       <Toaster position="top-center" toastOptions={{style: {background: 'black', color: 'white', borderColor: 'red'}}}/>
 
       <Header />
 
-      <main className="p-4 md:px-6 md:py-6 lg:px-8">
+      <main className="p-4 md:px-6 md:py-6 lg:px-8 flex-1">
 
         <Listagem1 />
 
